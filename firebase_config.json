@@ -1,0 +1,4 @@
+{
+    "usar_firebase": true,
+    "firebase_url": "https://precio-historia-db-default-rtdb.firebaseio.com/"
+}

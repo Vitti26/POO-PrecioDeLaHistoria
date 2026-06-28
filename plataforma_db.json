@@ -1,0 +1,328 @@
+{
+    "usuarios": [
+        {
+            "nombre": "Marcos",
+            "password": "1234",
+            "saldo": 42000.0,
+            "reputacion": 5.0,
+            "transacciones_completadas": 0,
+            "avatar_path": null,
+            "banco_vinculado": false,
+            "banco_nombre": "",
+            "cbu_alias": "",
+            "tarjeta_nro": "",
+            "notificaciones": [
+                {
+                    "mensaje": "vitti ofertó $22,000.00 por tu 'Reloj Seiko'.",
+                    "tipo": "info",
+                    "hora": "13:31",
+                    "leida": true
+                },
+                {
+                    "mensaje": "vitti ofertó $18,000.00 por tu 'Libro Primera Edición'.",
+                    "tipo": "info",
+                    "hora": "13:31",
+                    "leida": true
+                },
+                {
+                    "mensaje": "Sincronización de datos completada",
+                    "tipo": "exito",
+                    "hora": "13:46",
+                    "leida": false
+                },
+                {
+                    "mensaje": "Sincronización de datos completada",
+                    "tipo": "exito",
+                    "hora": "13:53",
+                    "leida": false
+                },
+                {
+                    "mensaje": "Sincronización de datos completada",
+                    "tipo": "exito",
+                    "hora": "14:01",
+                    "leida": false
+                }
+            ],
+            "actividades": [
+                "[28/06/2026 13:31] Notificación: vitti ofertó $22,000.00 por tu 'Reloj Seiko'.",
+                "[28/06/2026 13:31] Notificación: vitti ofertó $18,000.00 por tu 'Libro Primera Edición'.",
+                "[28/06/2026 13:46] Notificación: Sincronización de datos completada",
+                "[28/06/2026 13:53] Notificación: Sincronización de datos completada",
+                "[28/06/2026 14:01] Notificación: Sincronización de datos completada"
+            ]
+        },
+        {
+            "nombre": "Lucas",
+            "password": "1234",
+            "saldo": 30000.0,
+            "reputacion": 5.0,
+            "transacciones_completadas": 0,
+            "avatar_path": null,
+            "banco_vinculado": false,
+            "banco_nombre": "",
+            "cbu_alias": "",
+            "tarjeta_nro": "",
+            "notificaciones": [],
+            "actividades": []
+        },
+        {
+            "nombre": "Tuty",
+            "password": "1234",
+            "saldo": 50000000.0,
+            "reputacion": 5.0,
+            "transacciones_completadas": 0,
+            "avatar_path": null,
+            "banco_vinculado": true,
+            "banco_nombre": "Banco Galicia",
+            "cbu_alias": "dfadsfasdf",
+            "tarjeta_nro": "4321",
+            "notificaciones": [
+                {
+                    "mensaje": "Registraste 'Gomitas acidas' en tu inventario.",
+                    "tipo": "exito",
+                    "hora": "14:08",
+                    "leida": true
+                },
+                {
+                    "mensaje": "Cuenta vinculada con éxito. Fondos acreditados: $50,000,000.00",
+                    "tipo": "exito",
+                    "hora": "14:09",
+                    "leida": true
+                }
+            ],
+            "actividades": [
+                "[28/06/2026 14:08] Inventario: Añadiste 'Gomitas acidas' a tu inventario",
+                "[28/06/2026 14:08] Notificación: Registraste 'Gomitas acidas' en tu inventario.",
+                "[28/06/2026 14:09] Banco: Vinculaste cuenta de Banco Galicia (Alias: 'dfadsfasdf') y acreditaste saldo inicial de $50,000,000.00",
+                "[28/06/2026 14:09] Notificación: Cuenta vinculada con éxito. Fondos acreditados: $50,000,000.00"
+            ]
+        },
+        {
+            "nombre": "vitti",
+            "password": "1234",
+            "saldo": 500000000.0,
+            "reputacion": 5.0,
+            "transacciones_completadas": 0,
+            "avatar_path": null,
+            "banco_vinculado": true,
+            "banco_nombre": "Banco Galicia",
+            "cbu_alias": "jkasdfkjhdfakjh",
+            "tarjeta_nro": "1234",
+            "notificaciones": [
+                {
+                    "mensaje": "Registraste 'Psyduck' en tu inventario.",
+                    "tipo": "exito",
+                    "hora": "14:04",
+                    "leida": true
+                }
+            ],
+            "actividades": [
+                "[28/06/2026 13:49] Notificación: Sincronización de datos completada",
+                "[28/06/2026 13:59] Banco: Vinculaste cuenta de Banco Galicia (Alias: 'jkasdfkjhdfakjh') y acreditaste saldo inicial de $500,000,000.00",
+                "[28/06/2026 13:59] Notificación: Cuenta vinculada con éxito. Fondos acreditados: $500,000,000.00",
+                "[28/06/2026 14:01] Notificación: Sincronización de datos completada",
+                "[28/06/2026 14:04] Inventario: Añadiste 'Psyduck' a tu inventario",
+                "[28/06/2026 14:04] Notificación: Registraste 'Psyduck' en tu inventario."
+            ]
+        }
+    ],
+    "productos": [
+        {
+            "titulo": "Reloj Seiko",
+            "descripcion": "Reloj cronógrafo vintage automático.",
+            "duenio_nombre": "Marcos",
+            "imagen_path": "assets\\images\\RelojSeiko.jpg"
+        },
+        {
+            "titulo": "Casco de Samurai",
+            "descripcion": "Kabuto del período Edo en excelente estado.",
+            "duenio_nombre": "Marcos",
+            "imagen_path": "assets\\images\\KabutoEdo.jpg"
+        },
+        {
+            "titulo": "Libro Primera Edición",
+            "descripcion": "El Quijote ilustrado por Dalí, edición numerada.",
+            "duenio_nombre": "Marcos",
+            "imagen_path": "assets\\images\\LibroQuijoteIlustrado.webp"
+        },
+        {
+            "titulo": "Cadena de plata",
+            "descripcion": "Joyas finas de plata 925.",
+            "duenio_nombre": "Lucas",
+            "imagen_path": "assets\\images\\CadenaDePlata.jpg"
+        },
+        {
+            "titulo": "Guitarra Acústica",
+            "descripcion": "Fender acústica en buen estado.",
+            "duenio_nombre": "Lucas",
+            "imagen_path": "assets\\images\\GuitarraFender.jpg"
+        },
+        {
+            "titulo": "Estilográfica de Oro",
+            "descripcion": "Pluma Montblanc con plumín de oro 14k.",
+            "duenio_nombre": "Lucas",
+            "imagen_path": "assets\\images\\PlumaMontblanc.jpg"
+        },
+        {
+            "titulo": "Cámara Nikon",
+            "descripcion": "Réflex digital en caja original.",
+            "duenio_nombre": "Lucas",
+            "imagen_path": "assets\\images\\CamaraNikon.jpg"
+        },
+        {
+            "titulo": "Gomitas acidas",
+            "descripcion": "Gomitas acidas deliciosas",
+            "duenio_nombre": "Tuty",
+            "imagen_path": "assets\\images\\2bc257db-ff4c-4162-ac9a-1aa687e6ad95.webp"
+        },
+        {
+            "titulo": "Psyduck",
+            "descripcion": "Pokemon quemado por los alucinogenos",
+            "duenio_nombre": "vitti",
+            "imagen_path": "assets\\images\\4166e101-66cf-4383-ba92-1c4c745a82b0.jpg"
+        }
+    ],
+    "publicaciones_trueque": [
+        {
+            "producto_ofrecido_titulo": "Guitarra Acústica",
+            "producto_ofrecido_duenio": "Lucas",
+            "producto_buscado": "Notebook",
+            "descripcion_busqueda": "Cambio mano a mano por mi notebook.",
+            "ofertante_nombre": "Lucas",
+            "fecha": "28/06/2026 13:27"
+        },
+        {
+            "producto_ofrecido_titulo": "Estilográfica de Oro",
+            "producto_ofrecido_duenio": "Lucas",
+            "producto_buscado": "Reloj antiguo",
+            "descripcion_busqueda": "Cambio pluma fina por reloj antiguo.",
+            "ofertante_nombre": "Lucas",
+            "fecha": "28/06/2026 13:27"
+        }
+    ],
+    "publicaciones": [
+        {
+            "producto_titulo": "Reloj Seiko",
+            "producto_duenio": "Marcos",
+            "activa": true,
+            "fecha": "28/06/2026 13:27",
+            "postulantes": [],
+            "modalidad": {
+                "tipo": "Venta",
+                "precio_sugerido": 22000.0,
+                "medio_pago_preferido": "Transferencia",
+                "ofertas": {},
+                "pagos": {},
+                "ofertas_list": [],
+                "comprador_final": null,
+                "vendedor_final": null,
+                "monto_pagado": 0.0,
+                "fecha_compra": null,
+                "estado_devolucion": "N/A",
+                "motivo_devolucion": ""
+            }
+        },
+        {
+            "producto_titulo": "Libro Primera Edición",
+            "producto_duenio": "Marcos",
+            "activa": true,
+            "fecha": "28/06/2026 13:27",
+            "postulantes": [],
+            "modalidad": {
+                "tipo": "Venta",
+                "precio_sugerido": 18000.0,
+                "medio_pago_preferido": "Mercado Pago",
+                "ofertas": {},
+                "pagos": {},
+                "ofertas_list": [],
+                "comprador_final": null,
+                "vendedor_final": null,
+                "monto_pagado": 0.0,
+                "fecha_compra": null,
+                "estado_devolucion": "N/A",
+                "motivo_devolucion": ""
+            }
+        },
+        {
+            "producto_titulo": "Cámara Nikon",
+            "producto_duenio": "Lucas",
+            "activa": false,
+            "fecha": "28/06/2026 13:27",
+            "postulantes": [],
+            "modalidad": {
+                "tipo": "Venta",
+                "precio_sugerido": 30000.0,
+                "medio_pago_preferido": "Transferencia",
+                "ofertas": {},
+                "pagos": {},
+                "ofertas_list": [],
+                "comprador_final": "Lucas",
+                "vendedor_final": "Marcos",
+                "monto_pagado": 30000.0,
+                "fecha_compra": "2026-06-28T13:27:52.997326",
+                "estado_devolucion": "Disponible",
+                "motivo_devolucion": ""
+            }
+        },
+        {
+            "producto_titulo": "Casco de Samurai",
+            "producto_duenio": "Marcos",
+            "activa": true,
+            "fecha": "28/06/2026 13:27",
+            "postulantes": [],
+            "modalidad": {
+                "tipo": "Empeño",
+                "monto_prestamo": 45000.0,
+                "plazo_dias": 90,
+                "tasa_interes": 15.0,
+                "prestamista_nombre": null,
+                "estado": "Pendiente",
+                "fecha_inicio": null
+            }
+        }
+    ],
+    "mensajes_chat": [
+        {
+            "emisor": "Marcos",
+            "receptor": "Lucas",
+            "texto": "Mensaje de prueba no leído",
+            "hora": "14:22",
+            "leido": true
+        },
+        {
+            "emisor": "Tuty",
+            "receptor": "vitti",
+            "texto": "Hola bb",
+            "hora": "14:29",
+            "leido": true
+        },
+        {
+            "emisor": "vitti",
+            "receptor": "Tuty",
+            "texto": "Hola bb",
+            "hora": "14:29",
+            "leido": true
+        },
+        {
+            "emisor": "vitti",
+            "receptor": "Tuty",
+            "texto": "Funciona flama esto",
+            "hora": "14:29",
+            "leido": true
+        },
+        {
+            "emisor": "vitti",
+            "receptor": "Tuty",
+            "texto": "bah creo que no funciona tan bien",
+            "hora": "14:30",
+            "leido": true
+        },
+        {
+            "emisor": "vitti",
+            "receptor": "Tuty",
+            "texto": "Si funciona, pero no tenes que estar en esa charla sino no aparece la notificacion",
+            "hora": "14:30",
+            "leido": true
+        }
+    ]
+}
